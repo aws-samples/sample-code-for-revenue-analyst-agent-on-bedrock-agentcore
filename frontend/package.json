@@ -1,0 +1,17 @@
+{
+  "name": "revenue-analyst-agent-spa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Analyst SPA for the Revenue / Occupancy Analyst Agent sample. Vanilla JS, no framework.",
+  "scripts": {
+    "build": "node esbuild.config.mjs"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "6.3.20",
+    "dompurify": "3.4.16",
+    "marked": "18.0.11"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

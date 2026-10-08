@@ -1,0 +1,7 @@
+# Runtime dependencies of the tools Lambda, packaged as a Lambda layer by
+# scripts/build_tools_layer.sh (boto3 comes from the Lambda runtime).
+# Used to verify the analyst's Cognito ID token (lib/token_verifier.py).
+pyjwt[crypto]==2.15.1
+cryptography==50.0.2
+cffi==2.1.1
+pycparser==3.0

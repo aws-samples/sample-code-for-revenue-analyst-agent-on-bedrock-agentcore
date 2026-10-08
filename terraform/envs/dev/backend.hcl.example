@@ -1,0 +1,7 @@
+# Copy to backend.hcl (gitignored) and fill in the bucket created by
+# terraform/bootstrap, then run: terraform init -backend-config=backend.hcl
+bucket       = "revagent-dev-tfstate-123456789012"
+key          = "revenue-analyst-agent/dev/terraform.tfstate"
+region       = "us-east-1"
+encrypt      = true
+use_lockfile = true
