@@ -1,6 +1,6 @@
 bedrock-agentcore[strands-agents]==1.18.1
 strands-agents==1.54.0
-mcp==1.29.1
+mcp==1.30.0
 mcp-proxy-for-aws==1.6.5
 boto3==1.43.88
 # Transitive dependencies pinned to patched versions:
